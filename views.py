@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def home(response):
-    return render(response, "okech/templates/index.html", {})
+    return render(response, "okechAPI/templates/index.html", {})
